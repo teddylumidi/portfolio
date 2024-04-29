@@ -22,9 +22,9 @@
 To get a local copy up and running follow these simple example steps.
 
 - Fork the repository
-- Git clone https://github.com/your-username/personal_portfolio
+- Git clone https://github.com/your-username/portfolio
 - git checkout -b branch name
-- git remote add upstream https://github.com/teddylumidi/personal_portfolio-develop
+- git remote add upstream https://github.com/teddylumidi/portfolio
 - git pull upstream master
 - git commit -m "commit message"
 - git push -u origin HEAD
