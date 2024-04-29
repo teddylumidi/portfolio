@@ -57,8 +57,6 @@ header {
   padding: 0;
 }
 
-/* PARALLAX
-------------------------------------------------- */
 .parallax {
   text-align: center;
   background-position: center center;
@@ -73,8 +71,6 @@ header {
   background-repeat: repeat;
 }
 
-/* HEADING
-------------------------------------------------- */
 .heading {
   padding-bottom: 15px;
   text-align: center;
@@ -106,8 +102,6 @@ header {
   max-width: 150px;
 }
 
-/* CONTACT
-------------------------------------------------- */
 input.form-control {
   background: #fff;
   border: solid 1px #ddd;
@@ -156,8 +150,6 @@ button.contact.submit:hover {
   display: none;
 }
 
-/* CONTACT
-------------------------------------------------- */
 .footer {
   background: #563d7c;
   margin-top: 120px;
@@ -226,20 +218,17 @@ button.contact.submit:hover {
   text-transform: uppercase;
 }
 
-/* MEDIA QUERIES
-------------------------------------------------- */
-
 @media screen and (max-width: 768px) {
-  input .contact .col-md-6 {
+  input.contact.col-md-6 {
     width: 40.5%;
     margin: 15px 15px 0 58px;
   }
 
-  textarea .contact .col-md-12 {
+  textarea.contact.col-md-12 {
     margin: 15px 15px 0 58px;
   }
 
-  button #submit .contact .submit {
+  button.contact.submit {
     margin: 15px 15px 0 42px;
   }
 }
