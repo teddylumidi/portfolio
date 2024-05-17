@@ -1,3 +1,15 @@
+/* styles.css */
+
+:root {
+  --white: #fff;
+  --orange: #f55800;
+  --linear: #262626;
+  --gray: #3c3a39;
+  --dark: #000;
+  --grey: #ccc;
+  --wheat: #feeee5;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 1em;
@@ -31,6 +43,7 @@ a:hover {
 
 img {
   max-width: 100%;
+  height: auto
 }
 
 header {
@@ -38,7 +51,7 @@ header {
 }
 
 .intro {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   font-size: 60px;
   line-height: 1;
   font-weight: 300;
@@ -46,7 +59,7 @@ header {
 }
 
 .learn {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   font-size: 27px;
   line-height: 1.4;
   font-weight: 300;
@@ -81,7 +94,7 @@ header {
 
 .heading h2 {
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial, Helvetica, sans-serif";
   font-size: 40px;
   color: #333;
   margin: 0;

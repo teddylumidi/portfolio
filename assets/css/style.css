@@ -1,3 +1,5 @@
+/* main.css */
+
 :root {
   --white: #fff;
   --orange: #f55800;
@@ -81,10 +83,6 @@ a {
 
 .hidden {
   display: none;
-}
-
-.virinenursinghome {
-  border: 20px solid var(--orange);
 }
 
 .fa1 {
